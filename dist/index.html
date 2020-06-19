@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.2.0/css/ol.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.2.0/build/ol.js"></script> 
+
+</head>
+<body>
+<div id="map" class="map"></div>
+<script src="Map_handler.js"></script>
+            
+<div class="jumbotron" style="background-color:yellow">
+    <div class="container">
+    
+    
+        <div class="header-text">
+                           
+            <h2>Store Locator Project<h2>
+        </div> 
+        
+            <h4>Building Type:<h4>
+            <select id="tree_type">
+<option value="Park">Park</option> <option value="Patisserie">Patisserie</option><option value="School">School</option><option value="Pharmacy">Pharmacy</option>
+</select>
+
+			<h4 style="color:darkblue">Latitude:<h4>
+            <input type="text" id="Latitude"></input>
+            <h4 style="color:darkblue">Longitude:<h4>
+            <input type="text" id="Longitude"></input>
+            <h4 style="color:darkblue">Store Name:<h4>
+			<input type="text" id="tree_height"></input>
+</div>
+<button type="button" class="btn btn-success" onclick="submit();">Submit</button>
+
+
+    
+    </body>
+</html>
